@@ -2,8 +2,9 @@ This document describes the ROS topics used to control the CR45 robotic arm.
 
 # Setup
 Run in first terminal:
+`bash
 roslaunch swiftpro pro_control.launch
-
+`
 Start rosCore and launches serial_write script
 
 # SwiftPro ROS Topics
@@ -57,3 +58,4 @@ Example:
 x: 150.00
 y: 150.00000013
 z: 130.00
+
